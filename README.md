@@ -32,8 +32,9 @@ Backend: Python (using Flask or Django)
 Scraping Tools: BeautifulSoup, requests
 
 ## Use Case Example:
+
 Users can input the URL of a target website and select which HTML elements they want to extract. Once submitted, the app scrapes the site in real-time and displays the chosen content directly in the browser in a well-formatted way.
 
-✅ Conclusion:
+##  Conclusion:
 This project demonstrates how frontend and backend technologies can work together to create a powerful and user-friendly web scraping tool. With Python handling the data extraction and HTML/CSS delivering a smooth user interface, the application bridges the gap between technical scraping and visual data presentation. It serves as a strong foundation for building more advanced scraping tools or integrating with larger data analysis workflows.
 
