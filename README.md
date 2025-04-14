@@ -2,7 +2,7 @@
 
 This project is a full-stack web application that performs web scraping using a Python backend and presents the scraped data through a clean and user-friendly HTML/CSS frontend.
 
-## Key Features:
+##  Key Features:
 Frontend (HTML/CSS):
 
 Intuitive and responsive UI for users to interact with the scraper.
