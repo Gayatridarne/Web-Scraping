@@ -8,7 +8,6 @@ Intuitive and responsive UI for users to interact with the scraper.
 
 Clean design layout to display results such as headings, spans, and text content.
 
-Form elements for users to specify what elements or tags to scrape (e.g. <h3>, <span>, paragraph text, etc.).
 
 
 Backend (Python):
