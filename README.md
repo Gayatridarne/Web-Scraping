@@ -10,6 +10,7 @@ Clean design layout to display results such as headings, spans, and text content
 
 Form elements for users to specify what elements or tags to scrape (e.g., <h3>, <span>, paragraph text, etc.).
 
+
 Backend (Python):
 
 Utilizes libraries like requests and BeautifulSoup to scrape data from target websites.
