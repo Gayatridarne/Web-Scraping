@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Web Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .results {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .result-item {
+            background: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Web Scraper</h1>
+    <form method="POST">
+        <input type="text" name="url" placeholder="Enter URL" required><br>
+        <input type="text" name="tag" placeholder="Enter HTML tag (e.g. div, span)" required><br>
+        <input type="text" name="class" placeholder="Enter class name (optional)"><br>
+        <button type="submit">Scrape</button>
+    </form>
+
+    {% if results %}
+    <div class="results">
+        <h2>Results:</h2>
+        {% for result in results %}
+        <div class="result-item">{{ result }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</body>
+
+</html>
